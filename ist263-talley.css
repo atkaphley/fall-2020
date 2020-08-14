@@ -33,4 +33,4 @@ nav {display: inline-block;}
   a:hover, a:active {color: #6F777D; background-color: #fff; text-decoration: none; border-bottom: 1px solid;}
 #top-banner a:link, a:visited {border: none;}
 #top-banner a:hover, a:active {border: none;}
-  code {font-family: "Courier New", Courier, monospace; font-size: 1.2em; color: #D44500; font-weight: 600;}
+  code {font-family: "Courier New", Courier, monospace; font-size: 1em; color: #D44500; font-weight: 700;}
