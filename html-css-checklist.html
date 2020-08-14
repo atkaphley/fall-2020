@@ -96,7 +96,7 @@
     <dd>This invaluable tool is free for you use at <a href="https://validator.w3.org/" target="_blank">https://validator.w3.org/</a></dd>
     <dt>Read assignment instructions <u>carefully</u> and be sure to follow them.</dt>
     <dd>If you don't understand, consult your study partners (highly encouraged!) and other fellow students.</dd>
-    <dd>Still in doubt? Email questions to me. Those clarification requests need to happen far enough ahead of the submission deadline to get a timely response. Sunday evening emails probably won't be seen until Monday.</dd>
+    <dd>Still in doubt? Email questions to me. Those clarification requests need to happen far enough ahead of the submission deadline to get a timely response. Saturday evening emails probably won't be seen until Monday.</dd>
 </dl>
 </p>
 <h2>Onward to the Checklist!</h2>
@@ -130,7 +130,7 @@
     <dd>A <code>ul/</code> element does not wrap paragraphs or headings, only <code>&lt;li&gt;</code> elements would be its direct children. A list item may possibly contain an <code>img/</code> element to place an image in the list if content needs call for it, but be always mindful of appropriate syntax for parent-child relationships.</dd>
     <dd>When in doubt, consult those linked resources.</dd>
 <dt>Watch your paths &mdash; full HTTP, relative, and full relative paths.</dt>
-    <dd>For a link <code>&lt;a href="path"&gt;</code> and <code>&lt;img src="path"&gt;</code> values, use either full HTTP paths for off-site URLs, or for URLs on the current site use either relative or full <u>relative</u> paths to local URLs.</dd>
+    <dd>For a link <code>&lt;a href="path"&gt;</code> and <code>&lt;img src="path" /&gt;</code> values, use either full HTTP paths for off-site URLs, or for URLs on the current site use either relative or full <u>relative</u> paths to local URLs.</dd>
     <dd>Full HTTP path includes the external domain and full path to the resource:<br />
                 <code>href="http://domain.com/folder/subfolder/filename.html"</code></dd>
     <dd>Relative path starts from the HTML file's current position and gives the path from there. A relative path to an image file in a folder one step down the hierarchy would look like <code>src="images/filename.jpg"</code>. A relative path to a CSS file one step <u>upward</u> in the folder hierarchy would look like <code>href="../style.css"</code></dd>
@@ -160,7 +160,7 @@
   </main>
   <footer class="col-md-12 text-center">
       <hr>
-      <p>Did you notice in the <code>&lt;style/&gt;</code> tag's internal CSS how I used the <code>::before</code> pseudoelement to add those checkmark images? Much better than adding an <code>&lt;img/&gt;</code> tag before each description title. You can use right-click &gt; Inspect or view page source to peek at the CSS.<br/>
+      <p>Did you notice in the <code>&lt;style /&gt;</code> tag's internal CSS how I used the <code>::before</code> pseudoelement to add those checkmark images? Much better than adding an <code>&lt;img /&gt;</code> tag before each description title. You can use right-click &gt; Inspect or view page source to peek at the CSS.<br/>
         <code>
         dl.checklist dt::before {<br/>
             content: url(images/checkmark.png);<br/>
