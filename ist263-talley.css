@@ -28,6 +28,7 @@ nav {display: inline-block;}
   th {text-align: left;}
   a {color: #D44500; text-decoration: none; padding: 0 2px;}
   a:link, a:visited {color: #D44500; background-color: #fff; text-decoration: none; border-bottom: 1px dashed;}
+  .nav-item.active {font-weight:600;}
   dt {font-weight: 600;}
   dd {margin-left: 1em; line-height: 1.1em;}
   a:hover, a:active {color: #6F777D; background-color: #fff; text-decoration: none; border-bottom: 1px solid;}
