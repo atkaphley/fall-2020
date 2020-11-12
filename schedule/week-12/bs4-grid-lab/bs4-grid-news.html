@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid"> <!-- overall page content container -->
+        <header class="site-header">
+            <img src="images/grafeez-logo.png" alt="Grafeez Logo" class="site-logo" />
+        </header>
+        <div class="container-fluid page-content"> <!-- page content below site header -->
+        <!-- section below is full-width - col-12 - + bs4 flex container at lg/xl viewports -->
+        <section class="col-12 d-lg-flex" style="padding: 0; margin: 0;">
+            <!-- main is full-width below the lg viewport, half-width and flex-item at lg/xl -->
+            <main class="col-12 col-lg-6">
+                <article>
+                    <img src="images/health.jpg" alt="health article"/>
+                    <h1>An Alternative Form of Mental Health Care Gains a Foothold</h1>
+                    <p>Lorem ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan synth stumptown gastropub celiac swag. Brunch raclette vexillologist post-ironic glossier ennui XOXO mlkshk godard pour-over blog tumblr humblebrag. Blue bottle put a bird on it twee prism biodiesel brooklyn.</p>
+                    <p>3 hr ago</p>
+                </article>
+            </main>
+            <!-- aside is full-width below the lg viewport, half-width and flex-item at lg/xl -->
+            <aside class="col-12 col-lg-6">
+            <!-- section is flex container at md/lg/xl viewports, full-width below -->
+            <section class="col-12 d-md-flex"> 
+                <!-- articles are full-width at xs/sm viewports, half-width above -->
+                <article class="col-12 col-md-6"> <!-- flex element for left block in first row -->
+                    <img src="images/politics.jpg" alt="politics"/>
+                    <h2>Why the world would end without political polls</h2>
+                    <p>3 mins ago</p>
+                </article>
+                <article class="col-12 col-md-6"> <!-- flex element for right block in first row -->
+                        <img src="images/travel.jpg" alt="travel"/>
+                        <h2>The complete beginner's guide to travel insurance</h2>
+                        <p>3 mins ago</p>
+                </article>
+            </section>
+            <!-- section is flex container at md/lg/xl viewports, full-width below -->
+            <section class="col-12 d-md-flex"> 
+                <!-- articles are full-width at xs/sm viewports, half-width above -->
+                <article class="col-12 col-md-6">
+                        <img src="images/business.jpg" alt="business"/>
+                        <h2>The worst songs about business reviews</h2>
+                        <p>3 mins ago</p>
+                </article>
+                <article class="col-12 col-md-6">
+                        <img src="images/food.jpg" alt="business"/>
+                        <h2>The complete beginner's guide to travel salads</h2>
+                        <p>3 mins ago</p>
+                </article>
+            </section>
+            </aside>
+        </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+
+</html>
